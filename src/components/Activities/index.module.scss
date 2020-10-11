@@ -1,0 +1,17 @@
+.section {
+    min-height: inherit;
+}
+.image {
+    width: 90px;
+    height: 80px;
+    border-radius: 20px;
+}
+.activity {
+    display: flex;
+    // flex-flow: row;
+    > div {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+}

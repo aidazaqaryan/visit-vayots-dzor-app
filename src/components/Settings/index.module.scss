@@ -1,0 +1,28 @@
+@import '../../scss/variables.scss';
+.section {
+    min-height: inherit;
+    font-size: 18px;
+
+    > img {
+        border-radius: 25px;
+    }
+
+    > button {
+        position: absolute;
+        z-index: 4;
+        left: 2rem;
+        top: 2rem;
+    }
+    input {
+        border: 1px solid rgb(117, 117, 117);
+        width: 70%;
+        border-radius: 15px;
+    }
+    > div {
+        position: relative;
+        z-index: 2;
+        min-height: 100vh;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}

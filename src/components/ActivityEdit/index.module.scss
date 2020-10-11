@@ -1,0 +1,19 @@
+@import '../../scss/variables.scss';
+.section {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+    z-index: 2;
+    top: 0%;
+    background-color: rgba(164, 191, 206, 0.856);
+}
+.input, textarea, select {
+    display: block;
+    background-color: $white;
+    color: $black;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 9px;
+    width: 100%;
+}

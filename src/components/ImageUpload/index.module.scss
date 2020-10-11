@@ -1,0 +1,62 @@
+@import '../../scss/variables.scss';
+
+.section {
+    min-height: inherit;
+    display: flex;
+    flex-flow: column;
+
+
+    > .card {
+        position: relative;
+        z-index: 2;
+        flex: 1;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 1rem;
+
+        > h2 {
+            text-align: center;
+        }
+        img {
+            // padding: 5px;
+            margin: 5px;
+            // border: 1px solid black;
+            border-radius: 10%;
+            height: 150px;
+            width: 150px;
+            // object-fit: contain;
+            object-position: center;
+        }
+        label {
+            display: flex;
+            justify-content: center;
+        }
+        .upload {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #b9ceeb;
+            height: 80px;
+            width: 80px;
+            border-radius: 100%;
+        }
+
+        > label .dNone {
+            display: none;
+        }
+        
+        > .done {
+            font-size: 1rem;
+        }
+    }
+}
+// .images {
+//     position: relative;
+//     width: 170px;
+//     height: 170px;
+// }
+// .delete {
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+// }

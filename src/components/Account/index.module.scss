@@ -1,0 +1,39 @@
+@import '../../scss/variables.scss';
+
+.section {
+    min-height: inherit;
+    display: flex;
+    flex-flow: column;
+
+    > img {
+        transform: scale(1.2);
+    }
+
+    > button {
+        position: absolute;
+        z-index: 4;
+        left: 1rem;
+        top: 1rem;
+    }
+        
+    > div {
+        position: relative;
+        z-index: 2;
+        flex: 1;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+}
+.avatar {
+    position: absolute;
+    top: -15%;
+    left: 31%;
+    width: 150px;
+    border-radius: 25px;
+    box-shadow: 0 0px 8px 5px rgba(49, 49, 49, 0.2),
+}
+.card {
+    display: flex;
+    justify-content: center;
+}

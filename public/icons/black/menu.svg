@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="385px" height="194px" viewBox="0 0 385 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-657.000000, -187.000000)" fill="#252525" fill-rule="nonzero">
+            <g id="menu" transform="translate(657.000000, 187.000000)">
+                <path d="M12.03,24.303 L372.939,24.303 C379.58,24.303 384.969,18.913 384.969,12.273 C384.969,5.632 379.579,0.243 372.939,0.243 L12.03,0.243 C5.389,0.243 0,5.633 0,12.273 C0,18.913 5.39,24.303 12.03,24.303 Z" id="Path"></path>
+                <path d="M372.939,84.453 L12.03,84.453 C5.389,84.453 0,89.843 0,96.483 C0,103.123 5.39,108.513 12.03,108.513 L372.939,108.513 C379.58,108.513 384.969,103.123 384.969,96.483 C384.969,89.843 379.58,84.453 372.939,84.453 Z" id="Path"></path>
+                <path d="M198.545669,169 L9.45433112,169 C4.23519455,169 0,174.39 0,181.03 C0,187.671 4.23598044,193.06 9.45433112,193.06 L198.545669,193.06 C203.764805,193.06 208,187.67 208,181.03 C208,174.389 203.764805,169 198.545669,169 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

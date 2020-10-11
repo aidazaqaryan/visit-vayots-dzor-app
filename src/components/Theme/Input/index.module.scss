@@ -1,0 +1,19 @@
+@import '../../../scss/variables.scss';
+
+.input {
+    background-color: $white;
+    color: $black;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 9px;
+    width: 100%;
+    display: block;
+    border: none;
+
+    &:focus {
+        outline: none;
+    }
+    &[data-none] {
+        display: none;
+    }
+}
